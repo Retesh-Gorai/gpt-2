@@ -1,0 +1,14 @@
+df = pd.DataFrame({'A': ['hello', 'vignan', 'geeks'],
+                   'B': ['vignan', 'hello', 'hello'],
+                   'C': [1, 2, 3]})
+ 
+# display dataset
+print(df)
+ 
+# create dummy variables
+pd.get_dummies(df)
+
+scores = [89,56.34, 76,89, 98]
+first_arr =np.array(scores)
+print(first_arr)
+print(first_arr.dtype) 
